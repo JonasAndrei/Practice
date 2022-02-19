@@ -23,12 +23,12 @@ const validationSchema = Yup.object().shape({
 
 const categories = [
     { label: "Furniture", value: 1, backgroundColor: "#ff6464", icon: "lamp"},
-    { label: "Clothing", value: 2, backgroundColor: '#ff8e00', icon: 'car'},
+    { label: "Cars", value: 2, backgroundColor: '#ff8e00', icon: 'car'},
     { label: "Camera", value: 3, backgroundColor: '#ffe400', icon: 'camera'},
     { label: "Games", value: 4, backgroundColor: '#77d970', icon: 'cards'},
     { label: "Clothing", value: 5, backgroundColor: '#54A49F', icon: 'shoe-heel'},
     { label: "Sports", value: 6, backgroundColor: '#548CFF', icon: 'basketball'},
-    { label: "Camera", value: 7, backgroundColor: '#1C6DD0', icon: 'headphones'},
+    { label: "Music", value: 7, backgroundColor: '#1C6DD0', icon: 'headphones'},
     { label: "Books", value: 8, backgroundColor: '#B983FF', icon: 'book-open-variant'},
     { label: "Other", value: 9, backgroundColor: '#92A9BD', icon: 'application'},
 ];
